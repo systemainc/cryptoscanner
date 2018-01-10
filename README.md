@@ -1,4 +1,7 @@
-# bollinger_bot2
+# This scanner/bot is designed to scan through the current crypto market using various public APIs. 
+Config file allows various configurations, like the minimal market cap or trading volume (if you don't want to be spammed with signals for crappy cryptos). 
+
+The current version implements bollinger bands, MACD and Money flow index signals to see of the current price/trand of a give crypto is at a good buying or selling point. There is also integration with Telegram channel to get signals.
 
 
 #Dependencies:
@@ -17,5 +20,6 @@ hat ID. You should add it to config.yml users section and add -100 before the nu
 
 #Amazon AWS setup.
 sudo apt-get install xvfb
+
 #setup pacific timezone
 sudo dpkg-reconfigure tzdata
