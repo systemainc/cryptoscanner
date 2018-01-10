@@ -23,3 +23,7 @@ sudo apt-get install xvfb
 
 #setup pacific timezone
 sudo dpkg-reconfigure tzdata
+
+#ToDo
+- Explore the feasibility of using Fibonacci retracement for a reasonable buy zone indicator
+- Implement config settings for better A/B testing, including using test Telegram channel
